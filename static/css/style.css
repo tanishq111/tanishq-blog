@@ -1,7 +1,14 @@
 
-body { font-family: sans-serif; margin: 40px auto; max-width: 700px; padding: 0 20px; background: #fff; color: #333; }
+body { font-family: 'Segoe UI', 'Roboto', sans-serif; margin: 40px auto; max-width: 750px; padding: 0 20px; background: #fafafa; color: #333; line-height: 1.6; }
 a { color: #007acc; text-decoration: none; }
 a:hover { text-decoration: underline; }
-h1, h2 { color: #222; }
-.post { border-bottom: 1px solid #ddd; margin-bottom: 30px; padding-bottom: 20px; }
-.date { color: #777; font-size: 0.9em; }
+h1 { color: #222; font-size: 2.5em; margin-bottom: 10px; }
+.subtitle { font-size: 1.1em; color: #555; margin-bottom: 30px; }
+.post { border-bottom: 1px solid #ddd; margin-bottom: 40px; padding-bottom: 30px; }
+h2 { font-size: 1.8em; margin-bottom: 5px; }
+.date { color: #777; font-size: 0.9em; margin-bottom: 15px; }
+@media (max-width: 600px) {
+  body { padding: 10px; }
+  h1 { font-size: 2em; }
+  h2 { font-size: 1.5em; }
+}

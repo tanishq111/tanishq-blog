@@ -4,3 +4,6 @@ languageCode = "en-us"
 title = "Tanishq's Blog"
 theme = "custom"
 paginate = 1000
+
+[params]
+  description = "Welcome to Tanishq's personal blog - coding, projects, thoughts."

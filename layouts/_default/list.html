@@ -1,13 +1,17 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/favicon.ico">
 </head>
 <body>
   <h1>{{ .Site.Title }}</h1>
+  <p class="subtitle">{{ .Site.Params.description }}</p>
   <div class="posts">
     {{ range .Site.RegularPages }}
       <div class="post">
