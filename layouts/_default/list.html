@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>{{ .Site.Title }}</h1>
+  <div class="posts">
+    {{ range .Site.RegularPages }}
+      <div class="post">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="date">{{ .Date.Format "2006-01-02" }}</p>
+        <p>{{ .Summary }}</p>
+      </div>
+    {{ end }}
+  </div>
+</body>
+</html>
