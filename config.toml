@@ -1,8 +1,6 @@
-
 baseURL = "https://tanishq.blog/"
 languageCode = "en-us"
 title = "Tanishq's Blog"
-theme = "custom"
 paginate = 1000
 
 [params]
