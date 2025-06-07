@@ -1,7 +1,8 @@
+
 baseURL = "https://tanishq.blog/"
 languageCode = "en-us"
 title = "Tanishq's Blog"
 paginate = 1000
 
 [params]
-  description = "Welcome to Tanishq's personal blog - coding, projects, thoughts."
+  description = "Personal blog by Tanishq — coding, projects, thoughts and notes."

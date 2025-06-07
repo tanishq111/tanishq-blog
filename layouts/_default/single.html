@@ -9,11 +9,16 @@
   <link rel="icon" href="/favicon.ico">
 </head>
 <body>
-  <h1><a href="/">{{ .Site.Title }}</a></h1>
-  <div class="post">
-    <h2>{{ .Title }}</h2>
-    <p class="date">{{ .Date.Format "2006-01-02" }}</p>
-    {{ .Content }}
+  <div class="container">
+    <header>
+      <h1><a href="/">{{ .Site.Title }}</a></h1>
+    </header>
+
+    <main class="post">
+      <h2>{{ .Title }}</h2>
+      <p class="date">{{ .Date.Format "Jan 2, 2006" }}</p>
+      {{ .Content }}
+    </main>
   </div>
 </body>
 </html>
